@@ -19,6 +19,11 @@ public class player_script : MonoBehaviour
         {
             rb.linearVelocity=Vector2.left*3f;
         }
+        if(Input.GetKey(KeyCode.Space)||Input.GetKey(KeyCode.UpArrow))
+        {
+            rb.linearVelocity=Vector2*3f;
+        }
     }
 
 }
+
